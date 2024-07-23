@@ -15,7 +15,8 @@ namespace Learning_Selenium
 
             driver.FindElement(By.Id("full-name")).SendKeys("Josh Smith");
             driver.FindElement(By.Id("add-btn")).Click();
-            
+            var totalPrice = driver.FindElement(By.CssSelector("tfoot re th:nth-child(3)"));
+            Assert.That(totalPrice.Text, Is.EqualTo("$100.00"), "Total price is not valid.");
 
             driver.Quit();
         }

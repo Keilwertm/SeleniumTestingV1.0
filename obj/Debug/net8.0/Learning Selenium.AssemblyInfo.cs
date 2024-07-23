@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Learning Selenium")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2465b2396ee682a76244e4601afa7fb9f603afb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Learning Selenium")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Learning Selenium")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

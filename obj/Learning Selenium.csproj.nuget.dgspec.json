@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\keilw\\source\\repos\\Learning Selenium\\Learning Selenium.csproj": {}
+    "C:\\Source\\SeleniumTestingV1.0\\Learning Selenium.csproj": {}
   },
   "projects": {
-    "C:\\Users\\keilw\\source\\repos\\Learning Selenium\\Learning Selenium.csproj": {
+    "C:\\Source\\SeleniumTestingV1.0\\Learning Selenium.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\keilw\\source\\repos\\Learning Selenium\\Learning Selenium.csproj",
+        "projectUniqueName": "C:\\Source\\SeleniumTestingV1.0\\Learning Selenium.csproj",
         "projectName": "Learning Selenium",
-        "projectPath": "C:\\Users\\keilw\\source\\repos\\Learning Selenium\\Learning Selenium.csproj",
-        "packagesPath": "C:\\Users\\keilw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\keilw\\source\\repos\\Learning Selenium\\obj\\",
+        "projectPath": "C:\\Source\\SeleniumTestingV1.0\\Learning Selenium.csproj",
+        "packagesPath": "C:\\Users\\mkeilwert\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\SeleniumTestingV1.0\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\keilw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mkeilwert\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "\\\\dev.novarad.net\\builds\\debug\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tfs.novarad.net/tfs/DefaultCollection/Novarad/_packaging/8.10_PackageFeed/nuget/v3/index.json": {},
+          "https://tfs.novarad.net/tfs/DefaultCollection/Novarad/_packaging/8.9_PackageFeed/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -86,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
